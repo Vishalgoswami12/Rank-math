@@ -1,0 +1,579 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* ///// */
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  color: #4c5968;
+  font-family: SFProDisplay, serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  box-sizing: border-box;
+  background-color:#9a9bb0;
+  text-decoration: none;
+}
+/* body {
+  float: none;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  width: 7000px;
+} */
+/* .bg {
+  height: 5250px;
+  position: relative;
+  width: 7000px;
+  background: #e5eaf1;
+} */
+.phone {
+  left: 50%;
+  position: absolute;
+  top: 939px;
+  margin-left: -663px;
+}
+.background {
+  height: 3319px;
+  left: 50%;
+  /* position: absolute; */
+  top: 924px;
+  width: 1842px;
+  margin-left: -687px;
+}
+.col-2 {
+  left: 50%;
+  min-height: 2857px;
+  padding: 562px 0 101px;
+  /* position: absolute; */
+  top: 83px;
+  width: 1453px;
+  background: #f3f6f9;
+  margin-left: -793px;
+}
+.rectangle-background-bitcoin-wallet {
+  height: 786px;
+  margin: 0 auto;
+  width: 1269px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17);
+  -moz-box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17);
+  box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17); /*drop shadow*/
+}
+.rectangle-background-chart {
+  height: 704px;
+  margin: 192px auto 0;
+  width: 1269px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17);
+  -moz-box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17);
+  box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17); /*drop shadow*/
+}
+.row {
+  margin: 91px auto 0;
+  position: relative;
+  text-align: center;
+}
+.rectangle-background-buy-btc {
+  height: 421px;
+  margin: 0 89px 0 0;
+  width: 590px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17);
+  -moz-box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17);
+  box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17); /*drop shadow*/
+}
+.rectangle-background-sell-btc {
+  height: 421px;
+  width: 590px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17);
+  -moz-box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17);
+  box-shadow: 0 59px 111px 0 rgba(154, 155, 176, 0.17); /*drop shadow*/
+}
+.row > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.background-bottom {
+  height: 389px;
+  left: 50%;
+  position: absolute;
+  top: 2930px;
+  width: 1453px;
+  background: #ffffff;
+  margin-left: -793px;
+}
+.background-header {
+  height: 556px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 1842px;
+  background: #ffffff;
+  margin-left: -921px;
+}
+.ui-iphone-x-time-signal-wifi-battery {
+  left: 50%;
+  position: absolute;
+  top: 159px;
+  width: 1271px;
+  margin-left: -677px;
+}
+.row-3 {
+  position: relative;
+}
+.icons-signal-wifi-battery {
+  float: right;
+  margin: 1px 0 0;
+}
+.text {
+  color: #434358;
+  font-size: 59px;
+  font-weight: bold;
+}
+.bitcoin-wallet {
+  margin: 515px auto 0;
+  position: relative;
+  right: 22.5px;
+  width: 1104px;
+}
+.icon-bitcoin {
+  margin: 0 auto;
+  position: relative;
+  width: 1098px;
+}
+.circle-holder {
+  float: left;
+  padding: 38px 0 40px;
+  position: relative;
+  width: 160px;
+  -webkit-border-radius: 80.19px/80.22px;
+  -moz-border-radius: 80.19px/80.22px;
+  border-radius: 80.19px/80.22px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImNpcmNsZSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iMCUiPgo8c3RvcCBvZmZzZXQ9Ii0yNSUiIHN0b3AtY29sb3I9IiNmZjhmMTciIHN0b3Atb3BhY2l0eT0iMSIgLz4KPHN0b3Agb2Zmc2V0PSIxMjUlIiBzdG9wLWNvbG9yPSIjZmZjODQzIiBzdG9wLW9wYWNpdHk9IjEiIC8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjY2lyY2xlKSIgLz48L3N2Zz4=);
+  background: -moz-linear-gradient(90deg, #ff8f17 -25%, #ffc843 125%);
+  background: -o-linear-gradient(90deg, #ff8f17 -25%, #ffc843 125%);
+  background: -webkit-linear-gradient(90deg, #ff8f17 -25%, #ffc843 125%);
+  background: -webkit-linear-gradient(linear, left bottom, left top, color-stop(-25%, #ff8f17), color-stop(125%, #ffc843));
+  background: -webkit-linear-gradient(bottom, #ff8f17 -25%, #ffc843 125%);
+  background: -moz-linear-gradient(bottom, #ff8f17 -25%, #ffc843 125%);
+  background: -o-linear-gradient(bottom, #ff8f17 -25%, #ffc843 125%);
+  background: linear-gradient(0deg, #ff8f17 -25%, #ffc843 125%);
+}
+.icon-bitcoin-2 {
+  display: block;
+  margin: 0 auto;
+}
+.bitcoin {
+  float: left;
+  margin: 57px 0 0 78px;
+  font-size: 53.48138px;
+  font-weight: 600;
+}
+.btc {
+  float: right;
+  margin: 56px 0 0;
+  color: #aeb8c4;
+  font-size: 53.48138px;
+  font-weight: 600;
+}
+.balance-bitcoinb {
+  margin: 70px 0 0;
+  overflow: hidden;
+  position: relative;
+}
+.text-2 {
+  font-size: 125px;
+  font-weight: 600;
+}
+.text-3 {
+  margin: 40px 0 0;
+  color: #aeb8c4;
+  font-size: 75px;
+  font-weight: 600;
+}
+.group-2 {
+  left: 400px;
+  margin: -83px auto 0;
+  min-height: 103px;
+  padding: 0 35px;
+  position: relative;
+  width: 282px;
+  -webkit-border-radius: 51.5px;
+  -moz-border-radius: 51.5px;
+  border-radius: 51.5px;
+  background: #ee225d;
+  color: #ffffff;
+  font-size: 53.50001px;
+  font-weight: bold;
+  line-height: 103px;
+  text-align: center;
+}
+.icon-arrow-down-detailed-statistic {
+  display: block;
+  margin: 79px auto 0;
+}
+.sort-by-day-week-month-year {
+  margin: 147px 0 0 14px;
+  position: relative;
+}
+.day {
+  float: left;
+  margin: 22px 0 0;
+  color: #aeb8c4;
+  font-weight: 600;
+}
+.rectangle-selected-holder {
+  float: left;
+  margin: 0 0 0 206px;
+  min-height: 102px;
+  width: 209px;
+  -webkit-border-radius: 51px;
+  -moz-border-radius: 51px;
+  border-radius: 51px;
+  background: #aeb8c4;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 102px;
+  text-align: center;
+}
+.month {
+  float: left;
+  margin: 26px 0 0 211px;
+  color: #aeb8c4;
+  font-weight: 600;
+}
+.year {
+  float: left;
+  margin: 25px 0 0 238px;
+  color: #aeb8c4;
+  font-weight: 600;
+}
+.row-2 {
+  margin: 926px auto 0;
+  position: relative;
+  right: 22.5px;
+  width: 888px;
+}
+.buy-btc {
+  float: left;
+  position: relative;
+  width: 211px;
+}
+.circle-holder-2 {
+  margin: 0 auto;
+  padding: 42px 0;
+  position: relative;
+  width: 160px;
+  -webkit-border-radius: 80.19px/80.22px;
+  -moz-border-radius: 80.19px/80.22px;
+  border-radius: 80.19px/80.22px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImNpcmNsZSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iMCUiPgo8c3RvcCBvZmZzZXQ9Ii0yNSUiIHN0b3AtY29sb3I9IiMxZDcyZjEiIHN0b3Atb3BhY2l0eT0iMSIgLz4KPHN0b3Agb2Zmc2V0PSIxMjUlIiBzdG9wLWNvbG9yPSIjMTdjOGZjIiBzdG9wLW9wYWNpdHk9IjEiIC8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjY2lyY2xlKSIgLz48L3N2Zz4=);
+  background: -moz-linear-gradient(90deg, #1d72f1 -25%, #17c8fc 125%);
+  background: -o-linear-gradient(90deg, #1d72f1 -25%, #17c8fc 125%);
+  background: -webkit-linear-gradient(90deg, #1d72f1 -25%, #17c8fc 125%);
+  background: -webkit-linear-gradient(linear, left bottom, left top, color-stop(-25%, #1d72f1), color-stop(125%, #17c8fc));
+  background: -webkit-linear-gradient(bottom, #1d72f1 -25%, #17c8fc 125%);
+  background: -moz-linear-gradient(bottom, #1d72f1 -25%, #17c8fc 125%);
+  background: -o-linear-gradient(bottom, #1d72f1 -25%, #17c8fc 125%);
+  background: linear-gradient(0deg, #1d72f1 -25%, #17c8fc 125%);
+}
+.icon-dollar {
+  display: block;
+  margin: 0 auto;
+}
+.text-5 {
+  margin: 47px 0 0;
+  font-size: 53.48138px;
+  font-weight: 600;
+  text-align: center;
+}
+.sell-btc {
+  float: right;
+  position: relative;
+  width: 206px;
+}
+.circle-holder-3 {
+  margin: 0 auto;
+  padding: 42px 0;
+  position: relative;
+  width: 160px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImNpcmNsZSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iMCUiPgo8c3RvcCBvZmZzZXQ9Ii0yNSUiIHN0b3AtY29sb3I9IiNmYjIzYTIiIHN0b3Atb3BhY2l0eT0iMSIgLz4KPHN0b3Agb2Zmc2V0PSIxMjUlIiBzdG9wLWNvbG9yPSIjZmY2NzdjIiBzdG9wLW9wYWNpdHk9IjEiIC8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjY2lyY2xlKSIgLz48L3N2Zz4=);
+  background: -moz-linear-gradient(90deg, #fb23a2 -25%, #ff677c 125%);
+  background: -o-linear-gradient(90deg, #fb23a2 -25%, #ff677c 125%);
+  background: -webkit-linear-gradient(90deg, #fb23a2 -25%, #ff677c 125%);
+  background: -webkit-linear-gradient(linear, left bottom, left top, color-stop(-25%, #fb23a2), color-stop(125%, #ff677c));
+  background: -webkit-linear-gradient(bottom, #fb23a2 -25%, #ff677c 125%);
+  background: -moz-linear-gradient(bottom, #fb23a2 -25%, #ff677c 125%);
+  background: -o-linear-gradient(bottom, #fb23a2 -25%, #ff677c 125%);
+  background: linear-gradient(0deg, #fb23a2 -25%, #ff677c 125%);
+}
+.icon-dollar-2 {
+  display: block;
+  margin: 0 auto;
+}
+.text-6 {
+  margin: 50px 0 0;
+  font-size: 53.48139px;
+  font-weight: 600;
+  text-align: center;
+}
+.row-4 {
+  margin: 230px 67px 0;
+  position: relative;
+}
+.row-4 > * {
+  float: left;
+  margin: 0 250.46px 0 0;
+}
+.row-4 > *:last-child {
+  margin-right: 0 !important;
+}
+.icon-notification {
+  margin-top: 1px !important;
+}
+.iphone-x-bar-home {
+  display: block;
+  height: 21px;
+  margin: 83px auto 0;
+  position: relative;
+  right: 22.5px;
+  width: 526px;
+  -webkit-border-radius: 10.39px;
+  -moz-border-radius: 10.39px;
+  border-radius: 10.39px;
+  background: #aeb8c4;
+}
+.header {
+  left: 50%;
+  position: absolute;
+  top: 347px;
+  width: 1267px;
+  margin-left: -698px;
+}
+.icon-back {
+  float: left;
+  margin: 8px 0 0;
+}
+.text-7 {
+  float: left;
+  margin: 0 0 0 276px;
+  font-size: 108.33333px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+.icon-more {
+  float: left;
+  margin: 7px 0 0 306px;
+}
+.chart {
+  left: 50%;
+  position: absolute;
+  top: 1728px;
+  width: 1189px;
+  margin-left: -701px;
+}
+.price-lower-higher {
+  left: 46px;
+  margin: 0 auto;
+  position: relative;
+  width: 1097px;
+}
+.circle-magenta-lower {
+  float: left;
+  height: 28px;
+  margin: 14px 0 0;
+  width: 28px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #ef2755;
+}
+.text-8 {
+  float: left;
+  margin: 4px 0 0 39px;
+  color: #9a9bb0;
+  font-weight: 600;
+}
+.text-9 {
+  float: right;
+  color: #aeb8c4;
+  font-weight: 600;
+}
+.circle-green-higher {
+  float: right;
+  height: 28px;
+  margin: 14px 43px 0 0;
+  width: 28px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #1ec070;
+}
+.design-chart {
+  margin: 169px auto 0;
+  min-height: 374px;
+  padding: 0 0 81px;
+  position: relative;
+  width: 1178px;
+  background: url("./images/fill_chart.png") no-repeat left bottom;
+}
+.wrapper-4 {
+  padding: 0 0 71px;
+  position: relative;
+  width: 1178px;
+  background: url("./images/line_chart.png") no-repeat;
+}
+.circle-chart {
+  display: block;
+  height: 84px;
+  left: 547px;
+  margin: 0 auto;
+  position: relative;
+  width: 84px;
+  border: 15px solid rgba(255, 164, 39, 0.26); /*stroke*/
+  -webkit-border-radius: 42px;
+  -moz-border-radius: 42px;
+  border-radius: 42px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImNpcmNsZS1jaGFydCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iMCUiPgo8c3RvcCBvZmZzZXQ9IjYuNSUiIHN0b3AtY29sb3I9IiNmZmM4NDMiIHN0b3Atb3BhY2l0eT0iMSIgLz4KPHN0b3Agb2Zmc2V0PSI5My41JSIgc3RvcC1jb2xvcj0iI2ZmOGYxNyIgc3RvcC1vcGFjaXR5PSIxIiAvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2NpcmNsZS1jaGFydCkiIC8+PC9zdmc+);
+  background: -moz-linear-gradient(90deg, #ffc843 6.5%, #ff8f17 93.5%);
+  background: -o-linear-gradient(90deg, #ffc843 6.5%, #ff8f17 93.5%);
+  background: -webkit-linear-gradient(90deg, #ffc843 6.5%, #ff8f17 93.5%);
+  background: -webkit-linear-gradient(linear, left bottom, left top, color-stop(6.5%, #ffc843), color-stop(93.5%, #ff8f17));
+  background: -webkit-linear-gradient(bottom, #ffc843 6.5%, #ff8f17 93.5%);
+  background: -moz-linear-gradient(bottom, #ffc843 6.5%, #ff8f17 93.5%);
+  background: -o-linear-gradient(bottom, #ffc843 6.5%, #ff8f17 93.5%);
+  background: linear-gradient(0deg, #ffc843 6.5%, #ff8f17 93.5%);
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.bitcoin-live-prize {
+  margin: 86px 90px 0;
+  position: relative;
+}
+.elipse-1 {
+  float: left;
+  height: 48px;
+  margin: 4px 30px 0 0;
+  width: 48px;
+  border: 10px solid rgba(255, 193, 61, 0.26); /*stroke*/
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImVsaXBzZS0xIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjkyJSIgeTE9IjEwMCUiIHgyPSI4JSIgeTI9IjAlIj4KPHN0b3Agb2Zmc2V0PSI2LjUlIiBzdG9wLWNvbG9yPSIjZmZjODQzIiBzdG9wLW9wYWNpdHk9IjEiIC8+CjxzdG9wIG9mZnNldD0iOTMuNSUiIHN0b3AtY29sb3I9IiNmZjhmMTciIHN0b3Atb3BhY2l0eT0iMSIgLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNlbGlwc2UtMSkiIC8+PC9zdmc+);
+  background: -moz-linear-gradient(130deg, #ffc843 6.5%, #ff8f17 93.5%);
+  background: -o-linear-gradient(130deg, #ffc843 6.5%, #ff8f17 93.5%);
+  background: -webkit-linear-gradient(130deg, #ffc843 6.5%, #ff8f17 93.5%);
+  background: linear-gradient(320deg, #ffc843 6.5%, #ff8f17 93.5%);
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+}
+.text-10 {
+  font-size: 53.50001px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
